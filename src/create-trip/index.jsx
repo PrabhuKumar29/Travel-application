@@ -90,7 +90,7 @@ function CreateTrip() {
       id: docId
     });
     setLoading(false);
-    navigate('/view-trip/'+docId)
+    //navigate('/view-trip/'+docId)
   }
 
   const GetUserProfile = (tokenInfo) => {
